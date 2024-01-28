@@ -1,6 +1,6 @@
 {
   "name": "bad-sorting",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A collection of unconventional sorting algorithms for fun and experimentation.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,10 @@
     "bogosort",
     "stalinsort",
     "sleepsort",
-    "bitflipsort"
+    "bitflipsort",
+    "GenghisKhanSort",
+    "HitlerSort",
+    "Thanossort"
   ],
   "author": "hank-schrader-dea",
   "license": "MIT",

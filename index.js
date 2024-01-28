@@ -89,6 +89,7 @@ function sleepSort(arr) {
     }
     return array
   }
+
   function Thanossort(array) {
     // Delete half of the array elements
     const newSize = Math.ceil(array.length / 2);
