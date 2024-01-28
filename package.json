@@ -1,0 +1,19 @@
+{
+  "name": "bad-sorting",
+  "version": "1.0.2",
+  "description": "A collection of unconventional sorting algorithms for fun and experimentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sort",
+    "sorting",
+    "bogosort",
+    "stalinsort",
+    "sleepsort",
+    "bitflipsort"
+  ],
+  "author": "hank-schrader-dea",
+  "license": "MIT"
+}
