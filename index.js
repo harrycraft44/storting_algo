@@ -72,8 +72,39 @@ function sleepSort(arr) {
       }, num);
     });
   }
+
+  function GenghisKhanSort(array) {
+    var sortedarray = [array[1]]
+    for (let index = 1; index < array.length; index++) {
+        sortedarray.push(sortedarray[sortedarray.length -1 ] + 1)
+    }
+    return sortedarray;
+  }
+
+  function HitlerSort(array) {
+    for (let index = 0; index < array.length; index++) {
+        if(array[index].isOdd()){
+            array.splice(index,1)
+        }
+    }
+    return array
+  }
+  function Thanossort(array) {
+    // Delete half of the array elements
+    const newSize = Math.ceil(array.length / 2);
+    array.splice(newSize);
+    return array;
+  }
+
+
   
-  // Example usage
-  const numbers = [5, 2, 8, 1, 3];
-  sleepSort(numbers);
-console.log(bogosort([0,1,6,1,4]))
+  module.exports = {
+    bogosort,
+    HitlerSort,
+    Thanossort,
+    GenghisKhanSort,
+    stalinsort,
+    Solar_Bitflip_Sort,
+    sleepSort,
+  };
+  

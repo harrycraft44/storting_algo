@@ -1,6 +1,6 @@
 {
   "name": "bad-sorting",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A collection of unconventional sorting algorithms for fun and experimentation.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,12 @@
     "bitflipsort"
   ],
   "author": "hank-schrader-dea",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrycraft44/storting_algo"
+  },
+  "bugs": {
+    "url": "https://github.com/harrycraft44/storting_algo/issues"
+  }
 }
